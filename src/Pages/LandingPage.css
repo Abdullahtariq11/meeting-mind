@@ -1,0 +1,10 @@
+.LandingPage{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 100vh;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #E3F2FD, #F7F9FC);
+}

@@ -1,0 +1,146 @@
+/* Dashboard Header */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F7F9FC;
+    border-bottom: 2px solid #4A90E2;
+}
+
+.dashboard-header h1 {
+    font-size: 2.5rem;
+    color: #4A90E2;
+}
+
+.dashboard-actions button {
+    background-color: #50E3C2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-actions button:hover {
+    background-color: #3CC9A3;
+}
+/* Summary Cards */
+.summary-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.card h3 {
+    color: #4A90E2;
+    font-size: 1.5rem;
+    margin-top: 60px; /* Adjusted to fit the icon */
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 2rem;
+    color: #333;
+}
+/* Charts Section */
+.charts-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.chart-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.chart-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.chart-placeholder {
+    height: 200px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-size: 1rem;
+}
+/* Recent Activities */
+.recent-activities {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+}
+
+.recent-activities h3 {
+    color: #4A90E2;
+    margin-bottom: 15px;
+}
+
+.recent-activities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recent-activities li {
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .summary-cards, .charts-section {
+        flex-direction: column;
+    }
+
+    .card, .chart-card {
+        margin: 10px 0;
+    }
+
+    .dashboard-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dashboard-actions {
+        margin-top: 10px;
+    }
+}

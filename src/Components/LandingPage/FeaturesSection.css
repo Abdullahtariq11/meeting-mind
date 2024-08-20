@@ -1,0 +1,58 @@
+/* Overall Features Section */
+.features-section {
+    background-color: #F7F9FC;
+    padding: 50px;
+    text-align: center;
+}
+
+.features-section h2 {
+    color: #4A90E2;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Feature Card Styles */
+.feature-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox for aligning icon and content */
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.feature-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Feature Icon Styles */
+.feature-icon {
+    display: flex;
+    justify-content: flex-start; /* Align the icon to the left */
+    margin-right: 20px; /* Space between icon and text */
+}
+
+.feature-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Feature Content Styles */
+.feature-content {
+    text-align: left; /* Ensure text is aligned left */
+}
+
+.feature-content h3 {
+    color: #4A90E2;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-content p {
+    color: #7F8C8D;
+    font-size: 1rem;
+}

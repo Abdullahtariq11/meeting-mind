@@ -1,0 +1,173 @@
+/* Action Items Page Container */
+.action-items-page {
+   
+    background-color: #F7F9FC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Layout Container */
+  .action-items-layout {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+  }
+  
+  .sidebar h3 {
+    color: #4A90E2;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    color: #7F8C8D;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li:hover {
+    color: #4A90E2;
+  }
+  
+  /* Content Wrapper */
+  .action-items-content {
+    flex: 1;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Text */
+  .action-items-content h2 {
+    color: #4A90E2;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Task Category Header */
+  .task-category h3 {
+    color: #4A90E2;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Individual Action Item */
+  .action-item {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-info {
+    flex: 1;
+  }
+  
+  .task-icons {
+    margin-right: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .action-item h3 {
+    color: #4A90E2;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .action-item p {
+    color: #7F8C8D;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .complete-button {
+    background-color: #50E3C2;
+    color: white;
+  }
+  
+  .complete-button:hover {
+    background-color: #3CC9A3;
+  }
+  
+  .assign-button {
+    background-color: #4A90E2;
+    color: white;
+  }
+  
+  .assign-button:hover {
+    background-color: #357ABD;
+  }
+  
+  .edit-button {
+    background-color: #F5A623;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #D4881D;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .action-items-layout {
+      flex-direction: column;
+    }
+  
+    .action-items-content {
+      padding: 30px;
+    }
+  
+    .sidebar {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .action-item h3 {
+      font-size: 1.2rem;
+    }
+  
+    .action-item p {
+      font-size: 0.9rem;
+    }
+  
+    .action-buttons button {
+      padding: 8px 12px;
+      font-size: 0.9rem;
+    }
+  }

@@ -1,0 +1,48 @@
+/* Overall Testimonials Section */
+.testimonials-section {
+    background-color: #F7F9FC;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    color: #4A90E2;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Testimonial Card Styles */
+.testimonial-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.testimonial-photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-content p {
+    color: #4A4A4A;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.testimonial-name {
+    font-style: italic;
+    color: #7F8C8D;
+    font-size: 0.9rem;
+}
